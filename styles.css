@@ -224,3 +224,27 @@ body {
         gap: 0.8em;
     }
 }
+
+@media (max-width: 768px) {
+    .principal {
+        background-size: cover; /* Preenche melhor no celular */
+        background-position: center;
+        padding: 3em 1em; /* Afasta o texto da borda */
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+        height: auto;
+        text-align: center;
+    }
+
+    .container__caixa {
+        margin: 0;
+    }
+
+    .container__imagem {
+        margin-top: 1em;
+        max-width: 100%;
+    }
+}
+
